@@ -433,7 +433,7 @@ h6 {
 
 .mobile-nav-toggle i {
   margin: 18px 18px 0 0;
-  color: rgba(19, 39, 57, 0.8);
+  color: var(--primary_white);
 }
 
 .mobile-nav-overly {
@@ -443,7 +443,7 @@ h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(19, 39, 57, 0.8);
+  background: var(--primary_white);
   overflow: hidden;
   display: none;
 }
@@ -488,7 +488,7 @@ h6 {
 --------------------------------*/
 
 .section-bg {
-  background: #ecf5ff;
+  background: var(--primary_white);
 }
 
 /* About Us Section
@@ -508,7 +508,7 @@ h6 {
 }
 
 #about .about-container .title {
-  color: #333;
+  color: var(--primary_dark_gray);
   font-weight: 700;
   font-size: 32px;
 }
@@ -576,7 +576,7 @@ h6 {
 }
 
 #about .about-container .icon-box .title a {
-  color: #283d50;
+  color:  var(--sixth_palm);
 }
 
 #about .about-container .icon-box .description {
@@ -682,8 +682,8 @@ h6 {
 }
 
 #why-us .card:hover {
-  background: rgba(18, 137, 167,1.0);
-  border-color: rgba(18, 137, 167,1.0);
+  background: var(--fourth-purple);
+  border-color: var(--fourth-purple);
 }
 
 #why-us .card i {
@@ -707,11 +707,11 @@ h6 {
   font-weight: 600;
   display: inline-block;
   transition: 0.3s ease-in-out;
-  border-bottom: rgba(18, 137, 167,1.0) solid 2px;
+  border-bottom: var(--third_liberty) solid 2px;
 }
 
 #why-us .card .readmore:hover {
-  border-bottom: #fff solid 2px;
+  border-bottom: var(--primary_white) solid 2px;
 }
 
 #why-us .counters {
