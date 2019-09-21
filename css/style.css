@@ -183,10 +183,9 @@ h6 {
 #intro {
   width: 100%;
   position: relative;
-  background: url("../img/home.jpg") center bottom no-repeat;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("../img/home.jpg") center bottom no-repeat;
   background-size: cover;
   padding: 200px 0 120px 0;
-  border-radius: 0 0 90% 90% / 30%;
 }
 
 #intro .intro-img {
@@ -288,6 +287,7 @@ h6 {
 .main-nav .active > a,
 .main-nav li:hover > a {
   color: var(--primary_light_grey);
+  border-top: 2px solid var(--primary_white);
   text-decoration: none;
 }
 
@@ -599,7 +599,7 @@ h6 {
 
 #services {
   padding: 60px 0 40px 0;
-  background: url(../img/sustainability.jpg) no-repeat;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../img/sustainability.jpg) no-repeat;
   background-size: cover;
 	background-attachment: fixed;
     -webkit-background-size: cover;
@@ -647,7 +647,9 @@ h6 {
 #services .title a {
   color: var(--primary_black);
 }
-
+#services h3 {
+  color: var(--primary_white)
+}
 #services .box:hover .title a {
   color: var(--sixth_palm);
 }
@@ -1027,21 +1029,21 @@ h6 {
   margin: 0 2px;
 }
 
-/* Clients Section
+/* partners Section
 --------------------------------*/
 
-#clients {
+#partners {
   padding: 60px 0;
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
 
-#clients .clients-wrap {
+#partners .partner-wrap {
   border-top: 1px solid #d6eaff;
   border-left: 1px solid #d6eaff;
   margin-bottom: 30px;
 }
 
-#clients .client-logo {
+#partners .partner-logo {
   padding: 64px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1062,12 +1064,12 @@ h6 {
   height: 160px;
 }
 
-#clients .client-logo:hover img {
+#partners .partner-logo:hover img {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
 
-#clients img {
+#partners img {
   transition: all 0.4s ease-in-out;
 }
 
